@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+#main {
+  font-family: "Open Sans", sans-serif;
+  background: #ddd6f3;
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+  background: linear-gradient(to right, #faaca8, #ddd6f3);
+}
+
+#header {
+  text-align: center;
+  padding: 25px 0;
+  color: white;
+}
+#title {
+  font-size: 2.5rem;
+}
+#description {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 24px;
+}
+#survey-form {
+  background: rgba(255, 141, 172, 0.5);
+  margin: 2rem 20rem;
+  padding: 2rem 4rem;
+  color: white;
+  font-weight: 400;
+}
+#survey-form label,
+p,
+input,
+select {
+  font-size: 18px;
+}
+.form-group {
+  padding-bottom: 2rem;
+  margin: 0 auto;
+}
+#name,
+#email,
+#number {
+  display: block;
+  width: 97%;
+  border-radius: 5px;
+  border: #b8c1ba;
+  padding: 10px;
+  height: 1rem;
+  margin: 5px 0;
+}
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  height: 3rem;
+  border-radius: 5px;
+  border: #b8c1ba;
+  color: #495057;
+  font-weight: 400;
+  margin: 5px 0;
+}
+#p-recommend,
+#p-prefer,
+#p-comment {
+  margin-bottom: 5px;
+}
+#label-recommend,
+#label-prefer {
+  display: flex;
+  align-items: center;
+}
+#input {
+  display: block;
+  margin-right: 1rem;
+}
+span {
+  font-size: 14px;
+  margin-left: 10px;
+}
+textarea {
+  display: block;
+  width: 97%;
+  min-height: 120px;
+  resize: vertical;
+  padding: 10px;
+  border-radius: 5px;
+  border: #b8c1ba;
+  font-size: 16px;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  background: #3dc1a0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 14px;
+}
